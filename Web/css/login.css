@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --degrade-principal: #1B98E0;
+    --degrade-secundario: #13293D;
+    --corDeFundo: #EFECEC;
+    --textoLogin: #837979;
+}
+body{
+    max-height: 100vh;
+    background: linear-gradient(to left, var(--degrade-principal), rgba(19,41,61,0.8));
+}
+.main{
+    background: var(--corDeFundo);
+    width: 70%;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 80px;
+    box-shadow: 5px 10px 19px #000000;
+}
+.main img{
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+    float: right;
+}
+.title {
+    margin: 0 auto;
+    font-size: 48px;
+    padding-left: 28%;
+    padding-top: 8%;
+    color: #000000;
+}
+.login{
+    margin: auto;
+    width:auto;
+    margin-top: 30px;
+}
+.txtEmail{
+    color: var(--textoLogin);
+    margin-left: 25%;
+}
