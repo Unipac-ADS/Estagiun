@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/upload.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Estagiun</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <span class="logo_name">Estagiun</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li>
+                    <a href="#">
+                        <i class="uil uil-estate"></i>
+                        <span class="link-name">Pagina inicial</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="uil uil-clipboard-alt"></i>
+                        <span class="link-name">Curriculo</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="uil uil-suitcase"></i>
+                        <span class="link-name">Vagas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="uil uil-folder-check"></i>
+                        <span class="link-name">Vagas aplicadas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="uil uil-setting"></i>
+                        <span class="link-name">Configuração</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="uil uil-lightbulb-alt"></i>
+                        <span class="link-name">Dicas</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="logout-mode">
+                <li>
+                    <a href="#">
+                        <i class="uil uil-signout"></i>
+                        <span class="link-name">Sair</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                        <span class="link-name">Dark Mode</span>
+                    </a>
+
+                    <div class="mode-toggle">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+
+            <img src="images/profile.jpg" alt="">
+        </div>
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <!-- <i class="uil uil-folder-check"></i> -->
+                    <span class="text">Carregar Currículo</span>
+                </div>
+                <form>
+                    <div class="area-upload">
+                        <label for="upload-file" class="label-upload">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <div class="texto">Clique ou arraste o arquivo</div>
+                        </label>
+                        <input onchange="validarArquivo(this)" type="file" name="arquivo" accept="image/jpg,image/png"
+                            id="upload-file" multiple />
+                        <div class="lista-uploads">
+                        </div>
+                    </div>
+                    <div class="btn-arq">
+                        <button class="btnEnviar">Enviar</button>
+                        <!-- <i class="uil uil-folder-open"></i> -->
+                        maximo permitido de arquivo: 100MB
+                    </div>
+                    <div class="btn-voltar">
+                        <button class="btnVoltar">Voltar</button>
+                    </div>
+                </form>
+                <script src="../js/home.js"></script>
+                <script src="../js/upload.js"></script>
+</body>
+
+</html>
