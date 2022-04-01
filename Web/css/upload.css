@@ -44,6 +44,7 @@ body.dark {
     --box3-color: #3A3B3C;
     --title-icon-color: #CCC;
 }
+/* AREA DE UPLOAD */
 
 .area-upload {
     box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
