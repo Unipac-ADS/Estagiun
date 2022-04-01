@@ -12,7 +12,7 @@ drop_.addEventListener('drop', function () {
 function validarArquivo(file) {
 	console.log(file);
 	// Tipos permitidos
-	var mime_types = ['image/jpeg', 'image/png'];
+	var mime_types = ['application/pdf', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
 	// Validar os tipos
 	if (mime_types.indexOf(file.type) == -1) {

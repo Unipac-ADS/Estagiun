@@ -81,7 +81,7 @@ body.dark {
     pointer-events: none;
 }
 
-/* .area-upload input{
+.area-upload input{
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -90,7 +90,7 @@ body.dark {
 	width: 100%;
 	-webkit-appearance: none;
 	opacity: 0;
-} */
+}
 rea-upload .lista-uploads .barra {
     background-color: #e6e6e6;
     margin: 10px 0;
